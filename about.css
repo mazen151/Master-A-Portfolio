@@ -1,0 +1,132 @@
+body {
+  padding-left: 50px;
+  padding-right: 100px;
+  background-color: black;
+  padding-bottom: 0;
+
+
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  border-bottom: 2px solid white;
+  border-radius: 5px;
+  background-color: black;
+
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 100px;
+  background-color: black;
+
+}
+
+.navbar li {
+  display: inline-block;
+
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 12px 23px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  font-family: system-ui;
+  font-style: upperrcase;
+}
+
+.roblox {
+  color: white;
+  font-size: 18px;
+  font-family: 'Times New Roman', serif;
+  float: right;
+}
+
+.roblox b {
+  color: red;
+}
+
+a:hover {
+  border: 2px solid white;
+  border-radius: 30px;
+  animation-name: x;
+
+}
+
+.about {
+  border: 7px solid red;
+  padding: 10px;
+  width: 100%;
+  height: 350px;
+  border-radius: 400px;
+  background-color: black;
+  border-spacing: 10px;
+
+}
+
+.a1 {
+  color: white;
+  font-size: 25px;
+  font-family: 'Times New Roman', serif;
+  margin-left: 70px;
+  margin-top: 45px;
+
+}
+
+.aboutimg {
+  float: right;
+  width: 400px;
+  height: 375px;
+
+}
+
+.name {
+  color: white;
+  text-align: center;
+  height: 180px;
+  font-size: 55px;
+  font-family: 'Times New Roman', serif;
+
+}
+
+.a lgo{
+  background-color: white;
+}
+
+.red1 {
+  color: red;
+  
+}
+
+.copy1 {
+  color: white;
+  text-align: center;
+}
+
+.allani {
+  width: 100%;
+  height: 350px;
+  animation-name: x;
+  animation-duration: 2.8s;
+  animation-iteration-count: 1;
+
+}
+@keyframes x{
+  0%{
+    background-color: black;
+    width: 0%;
+  }
+  100%{
+    background-color: black;
+    width: 100%;
+  }
+}
